@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		406AA749347674CAF14CFEF9 /* libPods-BasicFramworkUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC9D3559FF96B179CA54CA6 /* libPods-BasicFramworkUITests.a */; };
 		6E8FADE01E30A1CC00451DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FADDF1E30A1CC00451DA1 /* main.m */; };
 		6E8FADE31E30A1CC00451DA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FADE21E30A1CC00451DA1 /* AppDelegate.m */; };
 		6E8FADE61E30A1CC00451DA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FADE51E30A1CC00451DA1 /* ViewController.m */; };
@@ -15,6 +16,18 @@
 		6E8FADEE1E30A1CC00451DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8FADEC1E30A1CC00451DA1 /* LaunchScreen.storyboard */; };
 		6E8FADF91E30A1CC00451DA1 /* BasicFramworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FADF81E30A1CC00451DA1 /* BasicFramworkTests.m */; };
 		6E8FAE041E30A1CC00451DA1 /* BasicFramworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8FAE031E30A1CC00451DA1 /* BasicFramworkUITests.m */; };
+		6EAA67FD1E31BA99002784FF /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA67D21E31BA99002784FF /* NSString+Base64.m */; };
+		6EAA67FE1E31BA99002784FF /* GHControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA67D91E31BA99002784FF /* GHControl.m */; };
+		6EAA67FF1E31BA99002784FF /* RequestCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA67DF1E31BA99002784FF /* RequestCenter.m */; };
+		6EAA68001E31BA99002784FF /* Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA67E21E31BA99002784FF /* Encryption.m */; };
+		6EAA68011E31BA99002784FF /* JsonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA67E61E31BA99002784FF /* JsonTool.m */; };
+		6EAA68021E31BA99002784FF /* UICollectionView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA67EB1E31BA99002784FF /* UICollectionView+MJRefresh.m */; };
+		6EAA68031E31BA99002784FF /* UITableView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA67ED1E31BA99002784FF /* UITableView+MJRefresh.m */; };
+		6EAA68041E31BA99002784FF /* SaveInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA67F11E31BA99002784FF /* SaveInfo.m */; };
+		6EAA68051E31BA99002784FF /* GHTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA67F51E31BA99002784FF /* GHTimeTool.m */; };
+		6EAA68061E31BA99002784FF /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA67F91E31BA99002784FF /* UIButton+Block.m */; };
+		A7DB003D9382B0F159E3E845 /* libPods-BasicFramwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 897FCEE4C43EA831F2D0BE92 /* libPods-BasicFramwork.a */; };
+		F326A414596158E5DA1BF75F /* libPods-BasicFramworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8B83341614B67AB5690378 /* libPods-BasicFramworkTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4641DE1709B5B2795E5E4A2C /* Pods-BasicFramwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasicFramwork/Pods-BasicFramwork.release.xcconfig"; sourceTree = "<group>"; };
 		6E8FADDB1E30A1CC00451DA1 /* BasicFramwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicFramwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8FADDF1E30A1CC00451DA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E8FADE11E30A1CC00451DA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +65,51 @@
 		6E8FADFF1E30A1CC00451DA1 /* BasicFramworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicFramworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8FAE031E30A1CC00451DA1 /* BasicFramworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicFramworkUITests.m; sourceTree = "<group>"; };
 		6E8FAE051E30A1CC00451DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8FAE111E30AEE800451DA1 /* BasicFramwork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BasicFramwork.entitlements; sourceTree = "<group>"; };
+		6E8FAE341E30B3EF00451DA1 /* GHAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHAPI.h; sourceTree = "<group>"; };
+		6E8FAE351E30B3EF00451DA1 /* GHLOG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHLOG.h; sourceTree = "<group>"; };
+		6EAA67D01E31BA99002784FF /* Base64_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64_log.h; sourceTree = "<group>"; };
+		6EAA67D11E31BA99002784FF /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		6EAA67D21E31BA99002784FF /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		6EAA67D41E31BA99002784FF /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		6EAA67D51E31BA99002784FF /* Commons_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commons_log.h; sourceTree = "<group>"; };
+		6EAA67D71E31BA99002784FF /* FactoryClass_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryClass_log.h; sourceTree = "<group>"; };
+		6EAA67D81E31BA99002784FF /* GHControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHControl.h; sourceTree = "<group>"; };
+		6EAA67D91E31BA99002784FF /* GHControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHControl.m; sourceTree = "<group>"; };
+		6EAA67DB1E31BA99002784FF /* Font_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Font_log.h; sourceTree = "<group>"; };
+		6EAA67DD1E31BA99002784FF /* Http_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Http_log.h; sourceTree = "<group>"; };
+		6EAA67DE1E31BA99002784FF /* RequestCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestCenter.h; sourceTree = "<group>"; };
+		6EAA67DF1E31BA99002784FF /* RequestCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestCenter.m; sourceTree = "<group>"; };
+		6EAA67E11E31BA99002784FF /* Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encryption.h; sourceTree = "<group>"; };
+		6EAA67E21E31BA99002784FF /* Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Encryption.m; sourceTree = "<group>"; };
+		6EAA67E31E31BA99002784FF /* JiamiTool_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiamiTool_log.h; sourceTree = "<group>"; };
+		6EAA67E51E31BA99002784FF /* JsonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonTool.h; sourceTree = "<group>"; };
+		6EAA67E61E31BA99002784FF /* JsonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonTool.m; sourceTree = "<group>"; };
+		6EAA67E71E31BA99002784FF /* JsonTool_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonTool_log.h; sourceTree = "<group>"; };
+		6EAA67E91E31BA99002784FF /* MJtool_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJtool_log.h; sourceTree = "<group>"; };
+		6EAA67EA1E31BA99002784FF /* UICollectionView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+MJRefresh.h"; sourceTree = "<group>"; };
+		6EAA67EB1E31BA99002784FF /* UICollectionView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+MJRefresh.m"; sourceTree = "<group>"; };
+		6EAA67EC1E31BA99002784FF /* UITableView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+MJRefresh.h"; sourceTree = "<group>"; };
+		6EAA67ED1E31BA99002784FF /* UITableView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+MJRefresh.m"; sourceTree = "<group>"; };
+		6EAA67EE1E31BA99002784FF /* Mytools_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mytools_log.h; sourceTree = "<group>"; };
+		6EAA67F01E31BA99002784FF /* SaveInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveInfo.h; sourceTree = "<group>"; };
+		6EAA67F11E31BA99002784FF /* SaveInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveInfo.m; sourceTree = "<group>"; };
+		6EAA67F21E31BA99002784FF /* SaveInfo_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveInfo_log.h; sourceTree = "<group>"; };
+		6EAA67F41E31BA99002784FF /* GHTimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTimeTool.h; sourceTree = "<group>"; };
+		6EAA67F51E31BA99002784FF /* GHTimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTimeTool.m; sourceTree = "<group>"; };
+		6EAA67F61E31BA99002784FF /* Timetool_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timetool_log.h; sourceTree = "<group>"; };
+		6EAA67F81E31BA99002784FF /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		6EAA67F91E31BA99002784FF /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		6EAA67FA1E31BA99002784FF /* UIButton+Block_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block_log.h"; sourceTree = "<group>"; };
+		6EAA67FC1E31BA99002784FF /* Voice_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voice_log.h; sourceTree = "<group>"; };
+		7BC9D3559FF96B179CA54CA6 /* libPods-BasicFramworkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicFramworkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		897FCEE4C43EA831F2D0BE92 /* libPods-BasicFramwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicFramwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8B83341614B67AB5690378 /* libPods-BasicFramworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicFramworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBA7D67E94FF551C27DF577 /* Pods-BasicFramworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramworkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasicFramworkUITests/Pods-BasicFramworkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA840671EEB3E2703E4A212F /* Pods-BasicFramworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasicFramworkTests/Pods-BasicFramworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3A0BCF23614735109C348AA /* Pods-BasicFramwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicFramwork/Pods-BasicFramwork.debug.xcconfig"; sourceTree = "<group>"; };
+		D933E96DEBB07560739E5347 /* Pods-BasicFramworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicFramworkTests/Pods-BasicFramworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F31A2CA13A52C1E88E9519AD /* Pods-BasicFramworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramworkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicFramworkUITests/Pods-BasicFramworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7DB003D9382B0F159E3E845 /* libPods-BasicFramwork.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F326A414596158E5DA1BF75F /* libPods-BasicFramworkTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +133,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406AA749347674CAF14CFEF9 /* libPods-BasicFramworkUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2092A5360A956AFDEA64CB9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				897FCEE4C43EA831F2D0BE92 /* libPods-BasicFramwork.a */,
+				9E8B83341614B67AB5690378 /* libPods-BasicFramworkTests.a */,
+				7BC9D3559FF96B179CA54CA6 /* libPods-BasicFramworkUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E8FADD21E30A1CC00451DA1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +157,8 @@
 				6E8FADF71E30A1CC00451DA1 /* BasicFramworkTests */,
 				6E8FAE021E30A1CC00451DA1 /* BasicFramworkUITests */,
 				6E8FADDC1E30A1CC00451DA1 /* Products */,
+				ECB09544DE7C1467BC431CEF /* Pods */,
+				2092A5360A956AFDEA64CB9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +175,14 @@
 		6E8FADDD1E30A1CC00451DA1 /* BasicFramwork */ = {
 			isa = PBXGroup;
 			children = (
+				6E8FAE111E30AEE800451DA1 /* BasicFramwork.entitlements */,
+				6EAA67CE1E31BA99002784FF /* MyTools */,
 				6E8FADE11E30A1CC00451DA1 /* AppDelegate.h */,
 				6E8FADE21E30A1CC00451DA1 /* AppDelegate.m */,
 				6E8FADE41E30A1CC00451DA1 /* ViewController.h */,
 				6E8FADE51E30A1CC00451DA1 /* ViewController.m */,
+				6E8FAE341E30B3EF00451DA1 /* GHAPI.h */,
+				6E8FAE351E30B3EF00451DA1 /* GHLOG.h */,
 				6E8FADE71E30A1CC00451DA1 /* Main.storyboard */,
 				6E8FADEA1E30A1CC00451DA1 /* Assets.xcassets */,
 				6E8FADEC1E30A1CC00451DA1 /* LaunchScreen.storyboard */,
@@ -140,6 +218,156 @@
 			path = BasicFramworkUITests;
 			sourceTree = "<group>";
 		};
+		6EAA67CE1E31BA99002784FF /* MyTools */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA67CF1E31BA99002784FF /* Base64 */,
+				6EAA67D31E31BA99002784FF /* Commons */,
+				6EAA67D61E31BA99002784FF /* FactoryClass */,
+				6EAA67DA1E31BA99002784FF /* Font */,
+				6EAA67DC1E31BA99002784FF /* Http */,
+				6EAA67E01E31BA99002784FF /* JiamiTool */,
+				6EAA67E41E31BA99002784FF /* JsonTool */,
+				6EAA67E81E31BA99002784FF /* MJtool */,
+				6EAA67EF1E31BA99002784FF /* SaveInfo */,
+				6EAA67F31E31BA99002784FF /* Timetool */,
+				6EAA67F71E31BA99002784FF /* UIButton+extension */,
+				6EAA67FB1E31BA99002784FF /* Voice */,
+				6EAA67EE1E31BA99002784FF /* Mytools_log.h */,
+			);
+			path = MyTools;
+			sourceTree = "<group>";
+		};
+		6EAA67CF1E31BA99002784FF /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA67D01E31BA99002784FF /* Base64_log.h */,
+				6EAA67D11E31BA99002784FF /* NSString+Base64.h */,
+				6EAA67D21E31BA99002784FF /* NSString+Base64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		6EAA67D31E31BA99002784FF /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA67D41E31BA99002784FF /* Common.h */,
+				6EAA67D51E31BA99002784FF /* Commons_log.h */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		6EAA67D61E31BA99002784FF /* FactoryClass */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA67D71E31BA99002784FF /* FactoryClass_log.h */,
+				6EAA67D81E31BA99002784FF /* GHControl.h */,
+				6EAA67D91E31BA99002784FF /* GHControl.m */,
+			);
+			path = FactoryClass;
+			sourceTree = "<group>";
+		};
+		6EAA67DA1E31BA99002784FF /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA67DB1E31BA99002784FF /* Font_log.h */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		6EAA67DC1E31BA99002784FF /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA67DD1E31BA99002784FF /* Http_log.h */,
+				6EAA67DE1E31BA99002784FF /* RequestCenter.h */,
+				6EAA67DF1E31BA99002784FF /* RequestCenter.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		6EAA67E01E31BA99002784FF /* JiamiTool */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA67E11E31BA99002784FF /* Encryption.h */,
+				6EAA67E21E31BA99002784FF /* Encryption.m */,
+				6EAA67E31E31BA99002784FF /* JiamiTool_log.h */,
+			);
+			path = JiamiTool;
+			sourceTree = "<group>";
+		};
+		6EAA67E41E31BA99002784FF /* JsonTool */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA67E51E31BA99002784FF /* JsonTool.h */,
+				6EAA67E61E31BA99002784FF /* JsonTool.m */,
+				6EAA67E71E31BA99002784FF /* JsonTool_log.h */,
+			);
+			path = JsonTool;
+			sourceTree = "<group>";
+		};
+		6EAA67E81E31BA99002784FF /* MJtool */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA67E91E31BA99002784FF /* MJtool_log.h */,
+				6EAA67EA1E31BA99002784FF /* UICollectionView+MJRefresh.h */,
+				6EAA67EB1E31BA99002784FF /* UICollectionView+MJRefresh.m */,
+				6EAA67EC1E31BA99002784FF /* UITableView+MJRefresh.h */,
+				6EAA67ED1E31BA99002784FF /* UITableView+MJRefresh.m */,
+			);
+			path = MJtool;
+			sourceTree = "<group>";
+		};
+		6EAA67EF1E31BA99002784FF /* SaveInfo */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA67F01E31BA99002784FF /* SaveInfo.h */,
+				6EAA67F11E31BA99002784FF /* SaveInfo.m */,
+				6EAA67F21E31BA99002784FF /* SaveInfo_log.h */,
+			);
+			path = SaveInfo;
+			sourceTree = "<group>";
+		};
+		6EAA67F31E31BA99002784FF /* Timetool */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA67F41E31BA99002784FF /* GHTimeTool.h */,
+				6EAA67F51E31BA99002784FF /* GHTimeTool.m */,
+				6EAA67F61E31BA99002784FF /* Timetool_log.h */,
+			);
+			path = Timetool;
+			sourceTree = "<group>";
+		};
+		6EAA67F71E31BA99002784FF /* UIButton+extension */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA67F81E31BA99002784FF /* UIButton+Block.h */,
+				6EAA67F91E31BA99002784FF /* UIButton+Block.m */,
+				6EAA67FA1E31BA99002784FF /* UIButton+Block_log.h */,
+			);
+			path = "UIButton+extension";
+			sourceTree = "<group>";
+		};
+		6EAA67FB1E31BA99002784FF /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA67FC1E31BA99002784FF /* Voice_log.h */,
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
+		ECB09544DE7C1467BC431CEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3A0BCF23614735109C348AA /* Pods-BasicFramwork.debug.xcconfig */,
+				4641DE1709B5B2795E5E4A2C /* Pods-BasicFramwork.release.xcconfig */,
+				D933E96DEBB07560739E5347 /* Pods-BasicFramworkTests.debug.xcconfig */,
+				BA840671EEB3E2703E4A212F /* Pods-BasicFramworkTests.release.xcconfig */,
+				F31A2CA13A52C1E88E9519AD /* Pods-BasicFramworkUITests.debug.xcconfig */,
+				9FBA7D67E94FF551C27DF577 /* Pods-BasicFramworkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +375,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E8FAE081E30A1CC00451DA1 /* Build configuration list for PBXNativeTarget "BasicFramwork" */;
 			buildPhases = (
+				580639B5DACEF4AF36B1379B /* [CP] Check Pods Manifest.lock */,
 				6E8FADD71E30A1CC00451DA1 /* Sources */,
 				6E8FADD81E30A1CC00451DA1 /* Frameworks */,
 				6E8FADD91E30A1CC00451DA1 /* Resources */,
+				8743982972E83B4454A699BA /* [CP] Embed Pods Frameworks */,
+				B89512A40024E487DFE69FDF /* [CP] Copy Pods Resources */,
+				6EAA677B1E319F01002784FF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -164,9 +396,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E8FAE0B1E30A1CC00451DA1 /* Build configuration list for PBXNativeTarget "BasicFramworkTests" */;
 			buildPhases = (
+				F7A0FF2B22FFC63F727B7C6C /* [CP] Check Pods Manifest.lock */,
 				6E8FADF01E30A1CC00451DA1 /* Sources */,
 				6E8FADF11E30A1CC00451DA1 /* Frameworks */,
 				6E8FADF21E30A1CC00451DA1 /* Resources */,
+				31F8965351BFF2FF8D84DFD0 /* [CP] Embed Pods Frameworks */,
+				1238E1A09A3AD98797B31CFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +417,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E8FAE0E1E30A1CC00451DA1 /* Build configuration list for PBXNativeTarget "BasicFramworkUITests" */;
 			buildPhases = (
+				3B0C9C0EA5C9D06592BC5E43 /* [CP] Check Pods Manifest.lock */,
 				6E8FADFB1E30A1CC00451DA1 /* Sources */,
 				6E8FADFC1E30A1CC00451DA1 /* Frameworks */,
 				6E8FADFD1E30A1CC00451DA1 /* Resources */,
+				82316430E38AA22DEC40A33D /* [CP] Embed Pods Frameworks */,
+				45EC889006042AE321FF2EB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +447,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = AR84PC8U56;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					6E8FADF31E30A1CC00451DA1 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -271,14 +514,175 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1238E1A09A3AD98797B31CFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicFramworkTests/Pods-BasicFramworkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31F8965351BFF2FF8D84DFD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicFramworkTests/Pods-BasicFramworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B0C9C0EA5C9D06592BC5E43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45EC889006042AE321FF2EB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicFramworkUITests/Pods-BasicFramworkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		580639B5DACEF4AF36B1379B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EAA677B1E319F01002784FF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#\n# Copyright 2016 Bugly, Tencent. All rights reserved.\n#\n# V1.4.0\n#\n# 2016.08.03\n#\n#\n#\n######################################################\n# 1. 脚本集成到Xcode工程的Target\n######################################################\n#\n# --- Copy the SCRIPT to the Run Script of Build Phases in the Xcode project ---\n#\n# #\nBUGLY_APP_ID=\"4988632683\"\n# #\nBUGLY_APP_KEY=\"59e29245-089f-41ee-8cae-72651a9547c2\"\n# #\nBUNDLE_IDENTIFIER=\"com.guohui.BasicFramwork\"\n# #\nUPLOAD_DSYM_ONLY=1\n#\n# # 脚本默认配置的版本格式为CFBundleShortVersionString(CFBundleVersion),  如果你修改默认的版本格式, 请设置此变量, 如果不想修改, 请忽略此设置\n# CUSTOMIZED_APP_VERSION=\"\"\n#\n# # Debug模式编译是否上传，1＝上传 0＝不上传，默认不上传\nUPLOAD_DEBUG_SYMBOLS=1\n#\n# # 模拟器编译是否上传，1=上传 0=不上传，默认不上传\nUPLOAD_SIMULATOR_SYMBOLS=1\n#\n# #只有Archive操作时上传, 1=支持Archive上传 0=所有Release模式编译都上传\n# UPLOAD_ARCHIVE_ONLY=0\n#\n# #\n# source dSYMUpload.sh\n#\n# --- END OF SCRIPT ---\n#\n#\n#\n#\n#######################################################\n# 2. 脚本根据输入参数处理\n#######################################################\n#\n# #命令行下输入应用基本信息, .dSYM文件的父目录路径, 输出文件目录即可\n#\n# sh dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir>\n#\n# #\n#\n# #注意:\n# # 1. dSYMUpload.sh会调用buglySymboliOS.jar进行.dSYM解析，所以依赖Java运行时环境\n# # 2. dSYMUpload.sh和buglySymboliOS.jar的文件路径需一致\n#\n#\n\n#\n# --- CONTENT OF SCRIPT ---\n#\n\n# Bugly服务域名\nBUGLY_DSYM_UPLOAD_DOMAIN=\"api.bugly.qq.com\"\n\n# 注意jar工具的路径跟dSYMUpload.sh脚本路径一致, 请务必保证jar路径的正确性\nBUGLY_SYMBOL_JAR_PATH=\"dsymtool/buglySymboliOS.jar\"\n# 查找添加到系统目录的jar工具\nif [ ! -f \"${BUGLY_SYMBOL_JAR_PATH}\" ]; then\nBUGLY_SYMBOL_JAR_PATH=\"$HOME/bin/buglySymboliOS.jar\"\nfi\n\n# 打印错误信息\nfunction exitWithMessage(){\n    echo \"--------------------------------\"\n    echo \"${1}\"\n    echo \"--------------------------------\"\n    exit ${2}\n}\n\n# 上传bSYMBOL文件\nfunction dSYMUpload() {\n    P_APP_ID=\"$1\"\n    P_APP_KEY=\"$2\"\n    P_APP_BUNDLE_ID=\"$3\"\n    P_APP_VERSION=\"$4\"\n    P_BSYMBOL_ZIP_FILE=\"$5\"\n    \n    #\n    P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE##*/}\n        P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE_NAME//&/_}\n            P_BSYMBOL_ZIP_FILE_NAME=\"${P_BSYMBOL_ZIP_FILE_NAME// /_}\"\n            \n            DSYM_UPLOAD_URL=\"https://${BUGLY_DSYM_UPLOAD_DOMAIN}/openapi/file/upload/symbol?app_id=${P_APP_ID}&app_key=${P_APP_KEY}\"\n            echo \"dSYM upload url: ${DSYM_UPLOAD_URL}\"\n            \n            echo \"-----------------------------\"\n            STATUS=$(/usr/bin/curl -k \"${DSYM_UPLOAD_URL}\" --form \"api_version=1\" --form \"app_id=${P_APP_ID}\" --form \"app_key=${P_APP_KEY}\" --form \"symbolType=2\"  --form \"bundleId=${BUNDLE_IDENTIFIER}\" --form \"productVersion=${BUGLY_APP_VERSION}\" --form \"fileName=${P_BSYMBOL_ZIP_FILE_NAME}\" --form \"file=@${P_BSYMBOL_ZIP_FILE}\" --verbose)\n            echo \"-----------------------------\"\n            \n            UPLOAD_RESULT=\"FAILTURE\"\n            echo \"Bugly server response: ${STATUS}\"\n            if [ ! \"${STATUS}\" ]; then\n            echo \"Error: Failed to upload the zip archive file.\"\n            elif [[ \"${STATUS}\" == *\"{\\\"reponseCode\\\":\\\"0\\\"}\"* ]]; then\n            echo \"Success to upload the dSYM for the app [${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION}]\"\n            UPLOAD_RESULT=\"SUCCESS\"\n            else\n            echo \"Error: Failed to upload the zip archive file to Bugly.\"\n            fi\n            \n            #Remove temp dSYM archive\n            #echo \"Remove temporary zip archive: ${DSYM_ZIP_FPATH}\"\n            #/bin/rm -f \"${DSYM_ZIP_FPATH}\"\n            \n            if [ \"$?\" -ne 0 ]; then\n            exitWithMessage \"Error: Failed to remove temporary zip archive.\" 0\n            fi\n            \n            echo \"--------------------------------\"\n            echo \"${UPLOAD_RESULT} - dSYM upload complete.\"\n            \n            if [[ \"${UPLOAD_RESULT}\" == \"FAILTURE\" ]]; then\n            echo \"--------------------------------\"\n            echo \"Failed to upload the dSYM\"\n            echo \"Please check the script and try it again.\"\n            fi\n        }\n        \n        # .dSYM解析为bSYMBOL文件\n        function dSYMParse() {\n            DSYM_FILE=\"$1\"\n            DSYM_SYMBOL_FILE=\"$2\"\n            \n            echo \"--------------------------------\"\n            echo \"Extract symbol info from .dSYM file. to ${DSYM_SYMBOL_FILE}\"\n            (/usr/bin/java -Xms512m -Xmx1024m -Dfile.encoding=UTF8 -jar \"${BUGLY_SYMBOL_JAR_PATH}\" -i \"${DSYM_FILE}\" -o \"${DSYM_SYMBOL_FILE}\" ) || exitWithMessage \"Error: Failed to extract symbols.\" 1\n            echo \"--------------------------------\"\n            \n        }\n        \n        # 执行\n        function run() {\n            \n            CONFIG_BUGLY_APP_ID=\"$1\"\n            CONFIG_BUGLY_APP_KEY=\"$2\"\n            \n            CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER=\"$3\"\n            CONFIG_BUGLY_APP_VERSION=\"$4\"\n            CONFIG_DSYM_SOURCE_DIR=\"$5\"\n            CONFIG_DSYM_DEST_DIR=\"$6\"\n            CONFIG_UPLOAD_DSYM_ONLY=\"$7\"\n            \n            # 检查必须参数是否设置\n            if [ ! \"${CONFIG_BUGLY_APP_ID}\" ]; then\n            exitWithMessage \"Error: Bugly App ID not defined. Please set 'BUGLY_APP_ID' \" 0\n            fi\n            \n            if [[ \"${CONFIG_BUGLY_APP_ID}\" == *\"App ID\"* ]]; then\n            exitWithMessage \"Error: Bugly App ID not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_KEY}\" ]; then\n            exitWithMessage \"Error: Bugly App Key not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER}\" ]; then\n            exitWithMessage \"Error: Bundle Identifier not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_VERSION}\" ]; then\n            exitWithMessage \"Error: App Version not defined.\" 0\n            fi\n            \n            if [ ! -e \"${CONFIG_DSYM_SOURCE_DIR}\" ]; then\n            exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_SOURCE_DIR}\" 0\n            fi\n            \n            if [ ! \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n            exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_DEST_DIR}\" 0\n            fi\n            \n            if [ ! -e \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n            mkdir ${CONFIG_DSYM_DEST_DIR}\n            fi\n            \n            DSYM_FOLDER=\"${CONFIG_DSYM_SOURCE_DIR}\"\n            IFS=$'\\n'\n            \n            echo \"Scaning dSYM FOLDER: ${DSYM_FOLDER} ...\"\n            RET=\"F\"\n            \n            #\n            for dsymFile in $(find \"$DSYM_FOLDER\" -name '*.dSYM'); do\n            RET=\"T\"\n            echo \"Found dSYM file: $dsymFile\"\n            \n            DSYM_FILE_NAME=${dsymFile##*/}\n                DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_FILE_NAME}.zip\"\n                DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_SYMBOL_ZIP_FILE_NAME// /_}\"\n                DSYM_SYMBOL_ZIP_FILE=${CONFIG_DSYM_DEST_DIR}/${DSYM_SYMBOL_ZIP_FILE_NAME}\n                \n                if [ $CONFIG_UPLOAD_DSYM_ONLY -eq 1 ]; then\n                if [ -e $DSYM_SYMBOL_ZIP_FILE ]; then\n                rm -f $DSYM_SYMBOL_ZIP_FILE\n                fi\n                # 如果只上传dSYM，直接压缩dSYM目录\n                zip -r -j $DSYM_SYMBOL_ZIP_FILE $dsymFile -x *.plist\n                else\n                # 使用符号表工具来生成Symbol文件\n                dSYMParse $dsymFile $DSYM_SYMBOL_ZIP_FILE\n                fi\n                \n                # 上传\n                dSYMUpload $CONFIG_BUGLY_APP_ID $CONFIG_BUGLY_APP_KEY $CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER $CONFIG_BUGLY_APP_VERSION $DSYM_SYMBOL_ZIP_FILE\n                done\n                \n                if [ $RET = \"F\" ]; then\n                exitWithMessage \"No .dSYM found in ${DSYM_FOLDER}\" 0\n                fi\n            }\n            \n            # 在Xcode工程中执行\n            function runInXcode(){\n                echo \"Uploading dSYM to Bugly in Xcode ...\"\n                \n                echo \"Info.Plist : ${INFOPLIST_FILE}\"\n                \n                BUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' \"${INFOPLIST_FILE}\")\n                BUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' \"${INFOPLIST_FILE}\")\n                \n                # 组装Bugly默认识别的版本信息(格式为CFBundleShortVersionString(CFBundleVersion), 例如: 1.0(1))\n                if [ ! \"${CUSTOMIZED_APP_VERSION}\" ]; then\n                BUGLY_APP_VERSION=\"${BUNDLE_SHORT_VERSION}(${BUNDLE_VERSION})\"\n                else\n                BUGLY_APP_VERSION=\"${CUSTOMIZED_APP_VERSION}\"\n                fi\n                \n                echo \"--------------------------------\"\n                echo \"Prepare application information.\"\n                echo \"--------------------------------\"\n                \n                echo \"Product Name: ${PRODUCT_NAME}\"\n                echo \"Bundle Identifier: ${BUNDLE_IDENTIFIER}\"\n                echo \"Version: ${BUNDLE_SHORT_VERSION}\"\n                echo \"Build: ${BUNDLE_VERSION}\"\n                \n                echo \"Bugly App ID: ${BUGLY_APP_ID}\"\n                echo \"Bugly App key: ${BUGLY_APP_KEY}\"\n                echo \"Bugly App Version: ${BUGLY_APP_VERSION}\"\n                \n                echo \"--------------------------------\"\n                echo \"Check the arguments ...\"\n                \n                ##检查模拟器编译是否允许上传符号\n                if [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\n                if [ $UPLOAD_SIMULATOR_SYMBOLS -eq 0 ]; then\n                exitWithMessage \"Warning: Build for simulator and skipping to upload. \\nYou can modify 'UPLOAD_SIMULATOR_SYMBOLS' to 1 in the script.\" 0\n                fi\n                fi\n                \n                ##检查是否是Release模式编译\n                if [ \"${CONFIGURATION=}\" == \"Debug\" ]; then\n                if [ $UPLOAD_DEBUG_SYMBOLS -eq 0 ]; then\n                exitWithMessage \"Warning: Build for debug mode and skipping to upload. \\nYou can modify 'UPLOAD_DEBUG_SYMBOLS' to 1 in the script.\" 0\n                fi\n                fi\n                \n                ##检查是否Archive操作\n                if [ $UPLOAD_ARCHIVE_ONLY -eq 1 ]; then\n                if [[ \"$TARGET_BUILD_DIR\" == *\"/Archive\"* ]]; then\n                echo \"Archive the package\"\n                else\n                exitWithMessage \"Warning: Build for NOT Archive mode and skipping to upload. \\nYou can modify 'UPLOAD_ARCHIVE_ONLY' to 0 in the script.\" 0\n                fi\n                fi\n                \n                #\n                run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${BUILD_DIR}/BuglySymbolTemp ${UPLOAD_DSYM_ONLY}\n            }\n            \n            # 根据Xcode的环境变量判断是否处于Xcode环境\n            INFO_PLIST_FILE=\"${INFOPLIST_FILE}\"\n            \n            BuildInXcode=\"F\"\n            if [ -f \"${INFO_PLIST_FILE}\" ]; then\n            BuildInXcode=\"T\"\n            fi\n            \n            if [ $BuildInXcode = \"T\" ]; then\n            runInXcode\n            else\n            echo \"\\nUsage: dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir> [upload_dsym_only]\\n\"\n            # 你可以在此处直接设置BuglyAppID和BuglyAppKey，排除不常变参数的输入\n            BUGLY_APP_ID=\"$1\"\n            BUGLY_APP_KEY=\"$2\"\n            BUNDLE_IDENTIFIER=\"$3\"\n            BUGLY_APP_VERSION=\"$4\"\n            DWARF_DSYM_FOLDER_PATH=\"$5\"\n            SYMBOL_OUTPUT_PATH=\"$6\"\n            UPLOAD_DSYM_ONLY=$7\n            run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${SYMBOL_OUTPUT_PATH} ${UPLOAD_DSYM_ONLY}\n            fi";
+		};
+		82316430E38AA22DEC40A33D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicFramworkUITests/Pods-BasicFramworkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8743982972E83B4454A699BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicFramwork/Pods-BasicFramwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B89512A40024E487DFE69FDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicFramwork/Pods-BasicFramwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7A0FF2B22FFC63F727B7C6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E8FADD71E30A1CC00451DA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EAA67FD1E31BA99002784FF /* NSString+Base64.m in Sources */,
 				6E8FADE61E30A1CC00451DA1 /* ViewController.m in Sources */,
+				6EAA68031E31BA99002784FF /* UITableView+MJRefresh.m in Sources */,
+				6EAA68041E31BA99002784FF /* SaveInfo.m in Sources */,
+				6EAA67FF1E31BA99002784FF /* RequestCenter.m in Sources */,
 				6E8FADE31E30A1CC00451DA1 /* AppDelegate.m in Sources */,
+				6EAA68061E31BA99002784FF /* UIButton+Block.m in Sources */,
+				6EAA67FE1E31BA99002784FF /* GHControl.m in Sources */,
+				6EAA68011E31BA99002784FF /* JsonTool.m in Sources */,
+				6EAA68021E31BA99002784FF /* UICollectionView+MJRefresh.m in Sources */,
 				6E8FADE01E30A1CC00451DA1 /* main.m in Sources */,
+				6EAA68001E31BA99002784FF /* Encryption.m in Sources */,
+				6EAA68051E31BA99002784FF /* GHTimeTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,8 +827,11 @@
 		};
 		6E8FAE091E30A1CC00451DA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A0BCF23614735109C348AA /* Pods-BasicFramwork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BasicFramwork/BasicFramwork.entitlements;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = AR84PC8U56;
 				INFOPLIST_FILE = BasicFramwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -435,8 +842,11 @@
 		};
 		6E8FAE0A1E30A1CC00451DA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4641DE1709B5B2795E5E4A2C /* Pods-BasicFramwork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BasicFramwork/BasicFramwork.entitlements;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = AR84PC8U56;
 				INFOPLIST_FILE = BasicFramwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -447,6 +857,7 @@
 		};
 		6E8FAE0C1E30A1CC00451DA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D933E96DEBB07560739E5347 /* Pods-BasicFramworkTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = AR84PC8U56;
@@ -460,6 +871,7 @@
 		};
 		6E8FAE0D1E30A1CC00451DA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA840671EEB3E2703E4A212F /* Pods-BasicFramworkTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = AR84PC8U56;
@@ -473,6 +885,7 @@
 		};
 		6E8FAE0F1E30A1CC00451DA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31A2CA13A52C1E88E9519AD /* Pods-BasicFramworkUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = AR84PC8U56;
 				INFOPLIST_FILE = BasicFramworkUITests/Info.plist;
@@ -485,6 +898,7 @@
 		};
 		6E8FAE101E30A1CC00451DA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBA7D67E94FF551C27DF577 /* Pods-BasicFramworkUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = AR84PC8U56;
 				INFOPLIST_FILE = BasicFramworkUITests/Info.plist;
@@ -514,6 +928,7 @@
 				6E8FAE0A1E30A1CC00451DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E8FAE0B1E30A1CC00451DA1 /* Build configuration list for PBXNativeTarget "BasicFramworkTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +937,7 @@
 				6E8FAE0D1E30A1CC00451DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E8FAE0E1E30A1CC00451DA1 /* Build configuration list for PBXNativeTarget "BasicFramworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +946,7 @@
 				6E8FAE101E30A1CC00451DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
