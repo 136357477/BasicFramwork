@@ -26,6 +26,8 @@
 		6EAA68041E31BA99002784FF /* SaveInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA67F11E31BA99002784FF /* SaveInfo.m */; };
 		6EAA68051E31BA99002784FF /* GHTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA67F51E31BA99002784FF /* GHTimeTool.m */; };
 		6EAA68061E31BA99002784FF /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA67F91E31BA99002784FF /* UIButton+Block.m */; };
+		6EE63BDC1E4AB6E50023C561 /* libUMessage_Sdk_1.4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE63BDA1E4AB6E50023C561 /* libUMessage_Sdk_1.4.0.a */; };
+		6EE63BDF1E4AB76B0023C561 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE63BDE1E4AB76B0023C561 /* UserNotifications.framework */; };
 		A7DB003D9382B0F159E3E845 /* libPods-BasicFramwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 897FCEE4C43EA831F2D0BE92 /* libPods-BasicFramwork.a */; };
 		F326A414596158E5DA1BF75F /* libPods-BasicFramworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8B83341614B67AB5690378 /* libPods-BasicFramworkTests.a */; };
 /* End PBXBuildFile section */
@@ -102,6 +104,9 @@
 		6EAA67F91E31BA99002784FF /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
 		6EAA67FA1E31BA99002784FF /* UIButton+Block_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block_log.h"; sourceTree = "<group>"; };
 		6EAA67FC1E31BA99002784FF /* Voice_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voice_log.h; sourceTree = "<group>"; };
+		6EE63BDA1E4AB6E50023C561 /* libUMessage_Sdk_1.4.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMessage_Sdk_1.4.0.a; sourceTree = "<group>"; };
+		6EE63BDB1E4AB6E50023C561 /* UMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMessage.h; sourceTree = "<group>"; };
+		6EE63BDE1E4AB76B0023C561 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		7BC9D3559FF96B179CA54CA6 /* libPods-BasicFramworkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicFramworkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		897FCEE4C43EA831F2D0BE92 /* libPods-BasicFramwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicFramwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8B83341614B67AB5690378 /* libPods-BasicFramworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicFramworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +122,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE63BDF1E4AB76B0023C561 /* UserNotifications.framework in Frameworks */,
+				6EE63BDC1E4AB6E50023C561 /* libUMessage_Sdk_1.4.0.a in Frameworks */,
 				A7DB003D9382B0F159E3E845 /* libPods-BasicFramwork.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +150,7 @@
 		2092A5360A956AFDEA64CB9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6EE63BDE1E4AB76B0023C561 /* UserNotifications.framework */,
 				897FCEE4C43EA831F2D0BE92 /* libPods-BasicFramwork.a */,
 				9E8B83341614B67AB5690378 /* libPods-BasicFramworkTests.a */,
 				7BC9D3559FF96B179CA54CA6 /* libPods-BasicFramworkUITests.a */,
@@ -175,7 +183,8 @@
 		6E8FADDD1E30A1CC00451DA1 /* BasicFramwork */ = {
 			isa = PBXGroup;
 			children = (
-				6E8FAE111E30AEE800451DA1 /* BasicFramwork.entitlements */,
+				6EE63BDD1E4AB7110023C561 /* Lib */,
+				6EE63BD81E4AB6E50023C561 /* 3RD */,
 				6EAA67CE1E31BA99002784FF /* MyTools */,
 				6E8FADE11E30A1CC00451DA1 /* AppDelegate.h */,
 				6E8FADE21E30A1CC00451DA1 /* AppDelegate.m */,
@@ -353,6 +362,31 @@
 				6EAA67FC1E31BA99002784FF /* Voice_log.h */,
 			);
 			path = Voice;
+			sourceTree = "<group>";
+		};
+		6EE63BD81E4AB6E50023C561 /* 3RD */ = {
+			isa = PBXGroup;
+			children = (
+				6EE63BD91E4AB6E50023C561 /* UMessage_Sdk_1.4.0 */,
+			);
+			path = 3RD;
+			sourceTree = "<group>";
+		};
+		6EE63BD91E4AB6E50023C561 /* UMessage_Sdk_1.4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				6EE63BDA1E4AB6E50023C561 /* libUMessage_Sdk_1.4.0.a */,
+				6EE63BDB1E4AB6E50023C561 /* UMessage.h */,
+			);
+			path = UMessage_Sdk_1.4.0;
+			sourceTree = "<group>";
+		};
+		6EE63BDD1E4AB7110023C561 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				6E8FAE111E30AEE800451DA1 /* BasicFramwork.entitlements */,
+			);
+			name = Lib;
 			sourceTree = "<group>";
 		};
 		ECB09544DE7C1467BC431CEF /* Pods */ = {
@@ -835,6 +869,10 @@
 				DEVELOPMENT_TEAM = AR84PC8U56;
 				INFOPLIST_FILE = BasicFramwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BasicFramwork/3RD/UMessage_Sdk_1.4.0",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.guohui.BasicFramwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -850,6 +888,10 @@
 				DEVELOPMENT_TEAM = AR84PC8U56;
 				INFOPLIST_FILE = BasicFramwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BasicFramwork/3RD/UMessage_Sdk_1.4.0",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.guohui.BasicFramwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
