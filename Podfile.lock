@@ -14,17 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - BuglyHotfix (1.1.0):
-    - BuglyHotfix/Core (= 1.1.0)
-  - BuglyHotfix/Core (1.1.0):
-    - JSPatch
+  - Bugly (2.4.6)
   - FDFullscreenPopGesture (1.1)
   - JHChart (1.1.0)
-  - JSPatch (1.1.2):
-    - JSPatch/Core (= 1.1.2)
-  - JSPatch/Core (1.1.2)
-  - JSPatch/Extensions (1.1.2):
-    - JSPatch/Core
   - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.12)
   - Reachability (3.2)
@@ -42,10 +34,9 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - BuglyHotfix
+  - Bugly
   - FDFullscreenPopGesture
   - JHChart
-  - JSPatch/Extensions
   - MBProgressHUD
   - MJRefresh
   - Reachability
@@ -60,10 +51,9 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  BuglyHotfix: 23c68e3e6770e9fd36682aa6150ed236d62bbbf6
+  Bugly: 7756e72c59387b0d490f46e83ab458ae94ee7fba
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   JHChart: b840376da2691ea366af88dec036576fdc4f4468
-  JSPatch: 741205ebb2e2238c223a436e4c8cf75cf40a345f
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
@@ -76,6 +66,6 @@ SPEC CHECKSUMS:
   WebViewJavascriptBridge: b75d0583e14c709eb5a614c563c977bb9855b7d3
   XHLaunchAd: 6e30e509f09a6a16222a4615afa03c7409e2db59
 
-PODFILE CHECKSUM: d9bac3293fc11bb4e5c53694b13465a83ecad336
+PODFILE CHECKSUM: 506d0af0e1d4dff0c433ecf326a5fc1005629e97
 
 COCOAPODS: 1.2.0

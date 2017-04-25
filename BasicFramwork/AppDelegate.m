@@ -9,8 +9,7 @@
 #import "AppDelegate.h"
 #import <UIViewController+Swizzled.h>
 #import "Common.h"
-#import <BuglyHotfix/Bugly.h>
-//UMessage.h,UserNotifications.h,UNUserNotificationCenterDelegate
+#import <Bugly/Bugly.h>
 #import "UMessage.h"
 #import <UserNotifications/UserNotifications.h>
 
@@ -244,12 +243,12 @@ static NetworkStatus hostReachState=NotReachable;
     // Set the app channel to deployment
     config.channel = @"AppStore";
     
-    config.version = [NSBundle mainBundle].infoDictionary[@"CFBundleShortVersionString"] ;
+    //    config.version = [NSBundle mainBundle].infoDictionary[@"CFBundleShortVersionString"] ;
     
     config.delegate = self;
-    //TODO: 从网络获取 js , 关闭热更新 debug 就会从网上获取 js 否则本地获取
-    //用于本地调试脚本使用，发布前请务必关闭
-    config.hotfixDebugMode = NO;
+    //    //TODO: 从网络获取 js , 关闭热更新 debug 就会从网上获取 js 否则本地获取
+    //    //用于本地调试脚本使用，发布前请务必关闭
+    //    config.hotfixDebugMode = NO;
     // NOTE:Required
     // Start the Bugly sdk with APP_ID and your config
     [Bugly startWithAppId:nil
@@ -274,13 +273,13 @@ static NetworkStatus hostReachState=NotReachable;
     //    BLYLog(BuglyLogLevelError, @"BLYLog : %@", FLAGESTR);
     ////    BLYLogVerbose(@"BLYLogVerbose %@", FLAGESTR);
     
-
+    
     //
     //    BLYLogError(@"BLYLogError %@", FLAGESTR);
     //    BLYLogWarn(@"BLYLogWarn %@", FLAGESTR);
     //    BLYLogv(BuglyLogLevelWarn, @"BLYLogv: BuglyDemoFlag", NULL);
     
-    BLYLog(BuglyLogLevelError, @"user_id : %@", [SaveInfo shareSaveInfo].user_id);
+    //    BLYLog(BuglyLogLevelError, @"user_id : %@", [SaveInfo shareSaveInfo].user_id);
     
     // NOTE: This is only TEST code for BuglyLog , please UNCOMMENT it in your code.
     //        [self performSelectorInBackground:@selector(testLogOnBackground) withObject:nil];

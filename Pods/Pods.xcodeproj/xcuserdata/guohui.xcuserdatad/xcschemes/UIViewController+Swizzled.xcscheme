@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CD4346C422AB2D8D35DE4503E5D06701'
+               BlueprintIdentifier = 'B36B7CDDA1707C142389F626407E11A9'
                BlueprintName = 'UIViewController+Swizzled'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libUIViewController+Swizzled.a'>

@@ -77,11 +77,9 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "JSPatch/JSPatch/JSPatch.js"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "JSPatch/JSPatch/JSPatch.js"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
 fi
 
